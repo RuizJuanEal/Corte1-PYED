@@ -101,3 +101,52 @@ span {
                     height: 150px;
                     width: 150px;
                 }
+
+.roboto
+                {
+                    background-image: url(./imagenes/chappie.png);
+                    background-size: cover;
+                    height: 320px;
+                    width: 260px;
+                    animation: pasoroboto 10s infinite;
+                }
+
+@keyframes pasoroboto{
+
+
+
+0%{
+    transform: translateX(0px) scale(1);
+}
+
+25%{
+    transform: translateX(400px) scale(0.4);
+
+}
+
+50%{
+    transform: translateX(400px) translateY(600px) scale(3);
+    
+}
+75%{
+    transform: translateX(0px) translateY(600px) scale(1);
+
+}
+100%{
+    transform: translateX(0px) translateY(0px);
+
+}
+}
+
+#coloso
+        {
+            background-color: #ff05aa;
+            height: 200px;
+            width: 200px;
+        }
+ #colosio
+        {
+            background-color: #76ff05;
+            height: 200px;
+            width: 200px;
+        }
