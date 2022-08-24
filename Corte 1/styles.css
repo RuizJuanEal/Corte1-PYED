@@ -161,10 +161,37 @@ span {
         }
 
 #circo  {
-            background-color: #1605ff;
+            background-color: #67f7efaf;
             width: 200px;
             height: 200px;
             border-radius: 50%;
             /* margin: 0px 30px 0px 30px; */
-            position: absolute;
+            position: fixed;
+            right: 30px;
+            bottom: 550pt;
+            box-shadow: 5px 3px 10px lightslategrey
         }
+
+#circo:hover 
+            {
+                transform: scale(1.2);
+            background-color: #67f7f0e8;
+            }
+
+.material-icons
+                {   
+                    position: fixed;                    
+                    right: 120px;
+                    bottom: 820px;
+                    background-size: 100px;
+                }
+
+              
+ .material-symbols-outlined {
+                  font-variation-settings:
+                  'FILL' 1,
+                  'wght' 600,
+                  'GRAD' 200,
+                  'opsz' 148;
+                }
+              
