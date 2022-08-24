@@ -106,7 +106,7 @@ span {
                 {
                     background-image: url(./imagenes/chappie.png);
                     background-size: cover;
-                    height: 320px;
+                    height: 380px;
                     width: 260px;
                     animation: pasoroboto 10s infinite;
                 }
@@ -125,7 +125,7 @@ span {
 }
 
 50%{
-    transform: translateX(400px) translateY(600px) scale(3);
+    transform: translateX(400px) translateY(600px) scale(1.5);
     
 }
 75%{
@@ -143,10 +143,28 @@ span {
             background-color: #ff05aa;
             height: 200px;
             width: 200px;
+            border: dashed 2px black;
+            margin:10px 30px 40px 20px;
+            padding:10px 30px 40px 20px;
+            box-sizing:border-box;
         }
- #colosio
+#colosio
         {
             background-color: #76ff05;
             height: 200px;
             width: 200px;
+            display: block; 
+            border: dashed 2px black;
+            margin:10px 30px 40px 20px;
+            padding:10px 30px 40px 20px;
+            box-sizing: content-box;
+        }
+
+#circo  {
+            background-color: #1605ff;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            /* margin: 0px 30px 0px 30px; */
+            position: absolute;
         }
