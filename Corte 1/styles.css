@@ -28,7 +28,7 @@ p   {text-align: center;
                }
 
 *   {
-    margin: 0px;
+    margin: auto 5rem;
     padding: 0px;
     font-size: 10px*1.5;
     }
@@ -195,3 +195,54 @@ span {
                   'opsz' 148;
                 }
               
+.alineacion {
+
+    text-align: center;
+    text-decoration-line:overline;
+    text-decoration-color: red;
+    font-family: 'Gelasio', serif;
+}
+
+.parrafo {
+
+    color: dimgrey;
+    font-size: 24px;
+    word-spacing: 5px;
+    line-height: 20px;
+    text-shadow: 12px 0px 3px red, -12px 0px 3px rgb(0, 162, 255);
+    font-weight: 800;
+    
+}
+
+.apll {
+
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.cities {
+
+    font-size: 18px;
+    list-style: square;
+    list-style-type: lower-alpha;
+    
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+    }
+    #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+    #customers tr:hover {background-color: #ddd;}
+    #customers th {
+    
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
